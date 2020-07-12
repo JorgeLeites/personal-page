@@ -1,0 +1,42 @@
+@import '../../colors.scss';
+
+.corner {
+  background-image: url('../../images/blueprint.png');
+  height: 250px;
+  transition: clip-path 0.3s ease;
+  width: 250px;
+}
+
+.corner-container {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.github-logo {
+  height: 50px;
+  width: 50px;
+}
+
+.github-link {
+  color: $purple-3;
+  position: absolute;
+  right: 30px;
+  top: 30px;
+
+  &:hover {
+    color: $purple-2;
+    text-decoration: none;
+
+    path {
+      fill: $purple-2;
+    }
+  }
+}
+
+.bent-corner {
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: width 0.3s ease;
+}
