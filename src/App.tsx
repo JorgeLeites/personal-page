@@ -1,9 +1,13 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
+
 import './App.scss';
 import Corner from './components/corner/corner';
 import HtmlTag from './components/html_tag/html_tag';
 
 function App() {
+  const { t } = useTranslation();
+
   return (
     <div className="app">
       <Corner />
@@ -11,7 +15,7 @@ function App() {
         <HtmlTag tagName="body" fullPage>
           <HtmlTag tagName="h2">
             <h2 className="title">
-              Do you want to build something <span className="text-secondary">exciting</span>?
+              {t('build_something')} <span className="text-secondary">{t('exciting')}</span>?
             </h2>
           </HtmlTag>
         </HtmlTag>

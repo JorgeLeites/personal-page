@@ -1,0 +1,14 @@
+{
+  "en": {
+    "translation": {
+      "build_something": "Do you want to build something",
+      "exciting": "exciting"
+    }
+  },
+  "es": {
+    "translation": {
+      "build_something": "¿Quieres construir algo",
+      "exciting": "emocionante"
+    }
+  }
+}

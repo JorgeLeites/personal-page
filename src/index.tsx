@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import 'typeface-roboto';
 import 'typeface-la-belle-aurore';
+import './i18n';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
