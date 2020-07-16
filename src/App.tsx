@@ -4,6 +4,7 @@ import { useTranslation } from 'react-i18next';
 import './App.scss';
 import Corner from './components/corner/corner';
 import HtmlTag from './components/html_tag/html_tag';
+import { ReactComponent as PersonalLogo } from './images/animated_logo.svg';
 
 function App() {
   const { t } = useTranslation();
@@ -20,6 +21,7 @@ function App() {
           </HtmlTag>
         </HtmlTag>
       </div>
+      <PersonalLogo className={'personal-logo'} />
     </div>
   );
 }

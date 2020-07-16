@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 830 830">
+  <defs>
+    <style>
+      .circle {
+        fill: #62eacc;
+      }
+      .shadow, .text {
+        fill: none;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 30px;
+        stroke-dasharray: 2000 2000;
+      }
+      .shadow {
+        stroke: #22d6ab;
+      }
+      .text {
+        stroke: #fff;
+      }
+    </style>
+  </defs>
+  <title>JL</title>
+  <g id="logo-circle" data-name="logo-circle">
+    <circle class="circle" cx="415" cy="415" r="415"/>
+  </g>
+  <g id="draw">
+    <g id="logo-shadow" data-name="logo-shadow">
+      <polyline class="shadow" points="169.5 177.17 602 177.17 168.67 610.5 168.67 336.33"/>
+      <polyline class="shadow" points="666.83 676.5 230.79 676.5 670.9 236.4"/>
+    </g>
+    <g id="logo-text" data-name="logo-text">
+      <polyline class="text" points="154.5 163.17 587 163.17 153.67 596.5 153.67 322.33"/>
+      <polyline class="text" points="652.83 661.5 216.79 661.5 656.9 221.4"/>
+    </g>
+  </g>
+  <animate
+    href="#draw"
+    attributeType="CSS"
+    attributeName="stroke-dashoffset"
+    from="2000"
+    to="0"
+    dur="2s"
+    repeatCount="1"
+    calcMode="paced"
+  />
+</svg>

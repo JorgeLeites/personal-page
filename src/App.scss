@@ -15,3 +15,20 @@ body {
 .title {
   max-width: 450px;
 }
+
+.personal-logo {
+  bottom: 100px;
+  position: absolute;
+  right: 50%;
+  transform: translateX(50%);
+  width: 200px;
+}
+
+@media (min-width: 576px) {
+  .personal-logo {
+    bottom: 50px;
+    right: 50px;
+    transform: none;
+    width: 250px;
+  }
+}
